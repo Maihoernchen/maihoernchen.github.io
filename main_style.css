@@ -24,8 +24,8 @@ body {
 #wsro {
     position: relative;
     top: 20px;
-    height: 800px;
-    width: auto;
+    height: 400px;
+    width: 600px;
     border: solid #333;
 }
 .topnav {
