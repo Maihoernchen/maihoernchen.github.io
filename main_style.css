@@ -1,10 +1,16 @@
 body {
+    margin: 0px;
     background-color: #f2f2f2;
     overflow-x: hidden;
 }
+.buddy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .main_text {
     position: relative;
-    left: 12%;
     top: 40px;
     text-align: center;
     background-color: f2f2f2;
@@ -17,7 +23,6 @@ body {
 
 #wsro {
     position: relative;
-    left: 12%;
     top: 20px;
     height: 800px;
     width: auto;
@@ -27,10 +32,9 @@ body {
     display: flex;
     background-color: #333;
     position: relative;
-    left: 0px;
     height: 62px;
     width: 100%;
-    margin: 0px;
+    margin-bottom: 20px;
 }
 .topnav a {
     color: #f2f2f2;
