@@ -44,15 +44,13 @@ body {
     padding: 18px 34px;
     text-decoration: none;
     font-size: 22px;
-  }
-  .topnav img {
-    float: right;
-    width: 3%;
     height: auto;
-    position: absolute;
-    right: 20px;
-    top: 3px;
   }
+  .topnav span {
+    float: right;
+    height: 42%;
+  }
+
   /* Change the color of links on hover */
   .af:hover {
     background-color: #ddd;
@@ -61,7 +59,7 @@ body {
   
   /* Add a color to the active/current link */
   .topnav a.active {
-    background-color: #04AA6D;
+    background-color: #fc6f03;
     color: white;
   }
 
