@@ -30,7 +30,13 @@
     </div>
     <h1 style="font-family: 'Special Elite', cursive;">Werner Seelenbinder</h1>
   </div>
-  <div id="timeline"></div>
+  <div id="timeline">
+  <?php
+  for ($x = 0; $x <= 100; $x++) {
+    echo "|<br>";
+  }
+  ?>
+  </div>
   <img id="wsro" src="werner_seelenbinder_ringer_outfit.jpg">
   <div class="main_text">
     Content
