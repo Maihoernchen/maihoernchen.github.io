@@ -1,21 +1,19 @@
 body {
-    margin: 0px;
     background-color: #f2f2f2;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
     overflow-x: hidden;
-}
-.buddy {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 .main_text {
     position: relative;
-    top: 20px;
+    left: 12%;
+    top: 40px;
     text-align: center;
     background-color: f2f2f2;
     color: black;
-    width: 98%;
+    width: 1185px;
     height: 500px;
     border: dashed #333;
 }
@@ -23,50 +21,46 @@ body {
 
 #wsro {
     position: relative;
-    top: 10px;
-    height: 400px;
-    width: 600px;
+    left: 12%;
+    top: 20px;
+    height: 800px;
+    width: auto;
     border: solid #333;
 }
 .topnav {
-    display: flex;
-    justify-content: space-between;
     background-color: #333;
     position: relative;
+    left: 0px;
     height: 62px;
     width: 100%;
-}
-.topnav a {
+    margin: 0px;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
     color: #f2f2f2;
     text-align: center;
     padding: 18px 34px;
-    width: auto;
-    max-height: 100%;
     text-decoration: none;
     font-size: 22px;
-}
-  /* Style the links inside the navigation bar */
-topnav a.ar {
+  }
+  .topnav img {
     float: right;
-}
-topnav a.af {
-    float: left;
-}
+    width: 3%;
+    height: auto;
+    position: absolute;
+    right: 20px;
+    top: 3px;
+  }
   /* Change the color of links on hover */
+  .af:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
   /* Add a color to the active/current link */
-.topnav a.active {
+  .topnav a.active {
     background-color: #04AA6D;
     color: white;
-}
-.topnav a.active {
-    background-color: #04AA6D;
-    color: white;
-}
-.ar:hover {
-    background-color: #ddd;
-    color: black;
-}
-.af:hover {
-    background-color: #ddd;
-    color: black;
-}
+  }
